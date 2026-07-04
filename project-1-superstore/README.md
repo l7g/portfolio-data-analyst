@@ -14,6 +14,18 @@ its discounting strategy.
 2. Are high discounts actually eroding profit?
 3. Are there regions that are systematically less profitable?
 4. Which sub-categories should be reduced or discontinued?
+5. What is driving the South region's consistently low sales?
+6. Are Supplies over-discounted, or do they suffer from high supplier costs?
+7. Are Tables sold at full price despite negative margins - suggesting a structural cost problem rather than a discounting issue?
+
+## Initial Hypotheses (Phase 1 Exploration)
+
+Based on a quick pivot table exploration of the raw data, the following initial trends and patterns were identified to guide the upcoming deep-dive analysis:
+
+- **High-Volume vs. High-Profit Disconnect:** The "Technology" category appears to drive the highest sales overall (particularly led by Copiers and Phones as seen in the sub-category breakdown), making it a core revenue driver for the Superstore.
+- **The Furniture Profit Drain:** While "Furniture" generates significant sales volume across multiple regions, its sub-categories **Tables** and **Bookcases** are critically unprofitable, dragging down the entire category's performance. **Tables** alone represent the largest profit drain in the entire dataset (over -$17,700).
+- **Regional Sales Disparity:** Regional sales are heavily skewed, with the **West** and **East** regions dominating total revenue, while the **South** consistently lags behind across all major product categories.
+- **Supplies Anomalies:** Within Office Supplies, **Supplies** is the only sub-category showing a negative net profit, suggesting potential issues with over-discounting or high supplier costs that warrant further programmatic investigation.
 
 ## Data
 
