@@ -20,6 +20,7 @@ its discounting strategy.
 8. Is Central's high loss rate driven by specific sub-categories or by aggressive discounting in that region?
 9. Are Appliances suffering from a structural cost problem indipendent of discounting, given their moderate discount rate but deeply negative margin?
 10. Are Binders profitable in absolute terms only because of extreme volumes, and is that volume sustainable without heavy discounting?
+11. What caused the unexpected sales drop in December 2017 despite November's historic peak, and was it driven by fulfillment bottlenecks or inventory exhaustion?
 
 ## Initial Hypotheses (Phase 1 Exploration)
 
@@ -34,27 +35,33 @@ Based on a quick pivot table exploration of the raw data, the following initial 
 
 ### Key findings from the SQL analysis:
 
-1. **Tables is the primary profit destroyer** — -$17,725 in absolute
-   profit loss, with a 26% average discount rate confirming discounting
-   as a key driver alongside structural cost issues.
+1. **Tables is the primary profit destroyer** — -$17,725 in absolute profit loss, with a 26% average discount rate confirming discounting as a key driver alongside structural cost issues.
 
-2. **Discounting strongly correlates with negative margins** — the top 4
-   most discounted sub-categories (Binders, Machines, Tables, Bookcases)
-   all show negative average margins.
+2. **Discounting strongly correlates with negative margins** — the top 4 most discounted sub-categories (Binders, Machines, Tables, Bookcases) all show negative average margins.
 
-3. **Central region has a structural loss problem** — 31.90% of orders
-   are unprofitable, nearly double the West (9.93%).
+3. **Central region has a structural loss problem** — 31.90% of orders are unprofitable, nearly double the West (9.93%).
 
-4. **Binders anomaly** — highest discount rate (37%), deeply negative
-   margin (-19.96%), yet $30,221 total profit due to extreme volume.
-   Sustainability of this model depends on volume continuity.
+4. **Binders anomaly** — highest discount rate (37%), deeply negative margin (-19.96%), yet $30,221 total profit due to extreme volume.Sustainability of this model depends on volume continuity.
 
-5. **Appliances cost problem** — moderate discount (17%) but -15.69%
-   margin suggests supplier cost issues independent of discounting.
+5. **Appliances cost problem** — moderate discount (17%) but -15.69% margin suggests supplier cost issues independent of discounting.
 
-6. **Strong seasonality** — consistent peaks in September and November
-   across all 4 years, with November 2017 as the highest single month
-   ($118,447).
+6. **Strong seasonality** — consistent peaks in September and November across all 4 years, with November 2017 as the highest single month ($118,447).
+
+## Key Findings
+
+## Business Recommendations
+
+### Open Questions & Data Limitations
+
+The following questions emerged from the analysis but could not be fully answered with the available dataset:
+
+**Q11 — December 2017 Sales Drop**
+Despite November 2017 being the historic sales peak ($118,447), December dropped significantly. Two hypotheses were identified:
+
+- Fulfillment bottlenecks unable to handle post-peak volume
+- Inventory exhaustion after the November surge
+
+Answering this requires additional data: inventory levels, fulfillment times, and order cancellation rates — not available in this dataset.
 
 ## Data
 
