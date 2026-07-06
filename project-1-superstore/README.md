@@ -41,7 +41,7 @@ Based on a quick pivot table exploration of the raw data, the following initial 
 
 3. **Central region has a structural loss problem** — 31.90% of orders are unprofitable, nearly double the West (9.93%).
 
-4. **Binders anomaly** — highest discount rate (37%), deeply negative margin (-19.96%), yet $30,221 total profit due to extreme volume.Sustainability of this model depends on volume continuity.
+4. **Binders anomaly** — highest discount rate average (37%), deeply negative margin (-19.96%), yet $30,221 total profit due to extreme volume.Sustainability of this model depends on volume continuity.
 
 5. **Appliances cost problem** — moderate discount (17%) but -15.69% margin suggests supplier cost issues independent of discounting.
 
