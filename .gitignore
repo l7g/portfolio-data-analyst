@@ -1,7 +1,4 @@
+.venv_*/*
+venv_*/
+
 guide.md
-
-data/processed/
-
-practice/
-
-.~lock.*
