@@ -1,4 +1,7 @@
 .venv_*/*
 venv_*/
 
-guide.md
+docs/
+docs/*
+
+project-1-cagliari-air-quality/data/raw/*
