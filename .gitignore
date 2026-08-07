@@ -4,4 +4,4 @@ venv_*/
 docs/
 docs/*
 
-project-1-cagliari-air-quality/data/raw/*
+**/data/raw/*

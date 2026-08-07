@@ -6,12 +6,12 @@ from raw data exploration to interactive BI dashboards.
 
 ## Projects
 
-### 1. Superstore Sales — Margin Erosion Analysis
+### 1. Cagliari Air Quality
 
 Identifying which product categories and regions are
 underperforming on profit margin across 4 years of US retail data.
 **Stack:** Python | PostgreSQL | Excel | Power BI
-[→ View Project](./project-1-superstore/)
+[→ View Project](./project-1-cagliari-air-quality/)
 
 ### 2. Coming soon
 
