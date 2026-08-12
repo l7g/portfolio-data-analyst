@@ -1,8 +1,8 @@
 .venv_*/*
 venv_*/
 
-docs/
-docs/*
+docs/private
+docs/private/*
 
 **/data/raw/*
 .vscode/
